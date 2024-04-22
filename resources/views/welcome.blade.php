@@ -33,7 +33,12 @@
         </div>
 
         <div class="w-full max-w-2xl text-sm mx-auto flex align-middle px-4 sm:px-6 md:px-8 text-gray-400">
-            <div class="p-6 w-full">
+            <div class="p-6 grid grid-cols-3 divide-x divide-gray-700 w-full">
+                <a href="https://twitter.com/btc_pepe_matrix"
+                    class="border-b border-dotted border-gray-500 hover:text-gray-300" target="_blank"
+                    rel="noopener">
+                        Twitter
+                </a>
                 <a href="https://t.me/bitcoinpepematrix"
                     class="border-b border-dotted border-gray-500 hover:text-gray-300" target="_blank"
                     rel="noopener">
