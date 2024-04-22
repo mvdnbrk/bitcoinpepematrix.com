@@ -9,6 +9,11 @@
     <title>{{ config('app.name') }}</title>
     <meta property="og:site_name" content="{{ config('app.name') }}">
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BITCOIN•PEPE•MATRIX">
+    <meta name="twitter:site" content="@BTCPepeMatrix">
+    <meta name="twitter:image" content="https://ordin-delta.vercel.app/content/6ea0f940a1386cbb146e134933ca3533c0759101a46744d0b207a283f5f57b23i0">
+
     <link rel="preconnect" href="https://rsms.me">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 
