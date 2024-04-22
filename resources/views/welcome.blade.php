@@ -29,22 +29,29 @@
             </div>
         </div>
 
-        <div class="w-full max-w-2xl text-sm mx-auto flex align-middle px-4 sm:px-6 md:px-8 text-gray-400">
-            <div class="p-6 grid grid-cols-3 divide-x divide-gray-700 w-full">
-                <a href="https://www.ord.io/runes/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
-                    class="border-b border-dotted border-gray-500 hover:text-gray-300" target="_blank"
+        <div class="mt-4 w-full max-w-2xl text-sm mx-auto flex inline-block align-bottom px-4 sm:px-6 md:px-8 text-gray-400">
+            <div class="p-6 flex w-full">
+                <a href="https://twitter.com/BTCPepeMatrix"
+                    class="hover:text-gray-300" target="_blank"
+                    rel="noopener">
+                    <span class="sr-only">Telegram</span>
+                    <x-icon-twitter-x class="w-6 h-6" />
+                </a>
+                <a
+                    href="https://t.me/bitcoinpepematrix"
+                    class="pl-6 hover:text-gray-300"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    <span class="sr-only">Telegram</span>
+                    <x-icon-telegram class="w-6 h-6" />
+                </a>
+                <a
+                    href="https://www.ord.io/runes/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
+                    class="pl-12 hover:text-gray-300"
+                    target="_blank"
                     rel="noopener">
                         Ord.io
-                </a>
-                <a href="https://twitter.com/BTCPepeMatrix"
-                    class="border-b border-dotted border-gray-500 hover:text-gray-300" target="_blank"
-                    rel="noopener">
-                        Twitter
-                </a>
-                <a href="https://t.me/bitcoinpepematrix"
-                    class="border-b border-dotted border-gray-500 hover:text-gray-300" target="_blank"
-                    rel="noopener">
-                        Telegram
                 </a>
             </div>
         </div>
