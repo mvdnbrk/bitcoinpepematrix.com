@@ -38,6 +38,32 @@
 
         <div class="mt-6 w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-slate-400">
             <div class="p-2 flex w-full">
+                <a href="https://linktr.ee/bitcoinpepematrix"
+                    class="hover:text-slate-200" target="_blank"
+                    rel="noopener">
+                    <span class="sr-only">Linktree</span>
+                    <x-icon-linktree class="w-6 h-6" />
+                </a>
+                <a href="https://twitter.com/BTCPepeMatrix"
+                    class="pl-6 hover:text-slate-200" target="_blank"
+                    rel="noopener">
+                    <span class="sr-only">Twitter / X</span>
+                    <x-icon-twitter-x class="w-6 h-6" />
+                </a>
+                <a
+                    href="https://t.me/bitcoinpepematrix"
+                    class="pl-6 hover:text-slate-200"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    <span class="sr-only">Telegram</span>
+                    <x-icon-telegram class="w-6 h-6" />
+                </a>
+            </div>
+        </div>
+
+        <div class="mt-2 w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-slate-400">
+            <div class="p-2 flex w-full">
                 <dl class="divide-y divide-white/10">
                     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                         <dt class="text-sm font-medium leading-6 text-white">RUNE ID</dt>
@@ -68,32 +94,6 @@
                         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">&gt; 15000</dd>
                     </div>
                  </dl>
-            </div>
-        </div>
-
-        <div class="mt-4 w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-slate-400">
-            <div class="p-2 flex w-full">
-                <a href="https://linktr.ee/bitcoinpepematrix"
-                    class="hover:text-slate-200" target="_blank"
-                    rel="noopener">
-                    <span class="sr-only">Linktree</span>
-                    <x-icon-linktree class="w-6 h-6" />
-                </a>
-                <a href="https://twitter.com/BTCPepeMatrix"
-                    class="pl-6 hover:text-slate-200" target="_blank"
-                    rel="noopener">
-                    <span class="sr-only">Twitter / X</span>
-                    <x-icon-twitter-x class="w-6 h-6" />
-                </a>
-                <a
-                    href="https://t.me/bitcoinpepematrix"
-                    class="pl-6 hover:text-slate-200"
-                    target="_blank"
-                    rel="noopener"
-                >
-                    <span class="sr-only">Telegram</span>
-                    <x-icon-telegram class="w-6 h-6" />
-                </a>
             </div>
         </div>
 
