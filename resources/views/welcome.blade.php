@@ -60,7 +60,7 @@
                         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">0</dd>
                     </div>
                     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                        <dt class="text-sm font-medium leading-6 text-white">MAX SUPPLY</dt>
+                        <dt class="text-sm font-medium leading-6 text-white">TOTAL SUPPLY</dt>
                         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">6.9 B</dd>
                     </div>
                       <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
