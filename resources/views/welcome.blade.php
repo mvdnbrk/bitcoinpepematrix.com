@@ -86,7 +86,13 @@
 
         <div class="w-full max-w-2xl text-sm mx-auto flex align-middle px-4 sm:px-6 md:px-8 text-gray-500">
             <div class="p-6 w-full flex">
-                Pepe on Runes <span class="px-4">|</span> No Premine <span class="px-4">|</span> 100% Minted <span class="px-4">|</span> Community
+                Pepe on Runes
+                <span class="px-4">|</span>
+                No Premine
+                <span class="px-4">|</span>
+                100% Minted
+                <span class="px-4">|</span>
+                Community
             </div>
         </div>
 
