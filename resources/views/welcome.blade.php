@@ -19,7 +19,6 @@
 <body>
 <div class="antialiased">
     <section class="h-screen relative z-10 overflow-hidden bg-gradient-to-b from-gray-900 to-gray-700 flex flex-col justify-center">
-        <div class="absolute top-0 top-0 right-0 h-full transform -skew-x-12 w-72 bg-gradient-to-b from-primary-500 to-primary-400 opacity-20"></div>
 
         <div class="w-full max-w-2xl mx-auto px-4 sm:px-6 md:px-8 relative z-20 flex align-middle mb-3">
             <div class="p-6 bg-gray-800 border-t border-gray-700 shadow rounded-xl space-y-2 text-gray-200">
