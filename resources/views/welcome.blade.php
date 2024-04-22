@@ -48,6 +48,13 @@
                 </a>
             </div>
         </div>
+
+        <div class="w-full max-w-2xl text-sm mx-auto flex align-middle px-4 sm:px-6 md:px-8 text-gray-400">
+            <div class="p-6 w-full flex">
+                Pepe on Runes | No Premine | 100% Minted | Community
+            </div>
+        </div>
+
     </section>
 </div>
 </body>
