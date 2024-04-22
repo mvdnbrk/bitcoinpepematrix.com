@@ -51,7 +51,14 @@
                     class="pl-12 hover:text-gray-300"
                     target="_blank"
                     rel="noopener">
-                        Ord.io
+                        view on ord.io
+                </a>
+                <a
+                    href="https://luminex.io/rune/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
+                    class="pl-12 hover:text-gray-300"
+                    target="_blank"
+                    rel="noopener">
+                        view on lumninex.io
                 </a>
             </div>
         </div>
