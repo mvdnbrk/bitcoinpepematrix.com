@@ -18,7 +18,7 @@
 </head>
 <body>
 <div class="antialiased">
-    <section class="h-screen relative z-10 overflow-hidden bg-gradient-to-b from-gray-900 to-gray-700 flex flex-col justify-center">
+    <section class="h-screen relative z-10 overflow-hidden bg-gradient-to-b from-black to-gray-900 flex flex-col justify-center">
 
         <div class="w-full max-w-2xl mx-auto px-4 sm:px-6 md:px-8 relative z-20 flex align-middle mb-3">
             <div class="p-6 bg-gray-800 border-t border-gray-700 shadow rounded-xl space-y-2 text-gray-200">
