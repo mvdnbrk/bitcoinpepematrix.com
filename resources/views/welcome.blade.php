@@ -131,7 +131,7 @@
 
         <div class="w-full max-w-2xl text-sm mx-auto px-4 sm:px-6 md:px-8 text-slate-500">
             <div class="p-2 w-full flex items-center">
-                Pepe on Runes
+                Pepe on <span class="sr-only">Bitcoin</span> <x-icon-bitcoin class="mx-2 w-4 h-4" /> Runes
                 <span class="px-4">|</span>
                 Community
                 <span class="px-4">|</span>
