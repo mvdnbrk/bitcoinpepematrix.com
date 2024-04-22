@@ -71,7 +71,7 @@
                     target="_blank"
                     rel="noopener"
                 >
-                        view on lumninex.io
+                        view on luminex.io
                 </a>
                 <a
                     href="https://unisat.io/runes/market?tick=BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
