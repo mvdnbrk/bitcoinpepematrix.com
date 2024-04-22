@@ -116,6 +116,14 @@
                         view on luminex.io
                 </a>
                 <a
+                    href="https://magiceden.io/runes/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
+                    class="pl-12 hover:text-slate-300"
+                    target="_blank"
+                    rel="noopener"
+                >
+                        trade on magic eden
+                </a>
+                <a
                     href="https://unisat.io/runes/market?tick=BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
                     class="pl-12 hover:text-slate-300"
                     target="_blank"
