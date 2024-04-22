@@ -52,26 +52,41 @@
                     <span class="sr-only">Telegram</span>
                     <x-icon-telegram class="w-6 h-6" />
                 </a>
+            </div>
+        </div>
+
+        <div class="mt-4 w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-white">
+            <div class="p-6 flex w-full">
                 <a
                     href="https://www.ord.io/runes/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
-                    class="pl-12 hover:text-gray-300"
+                    class="hover:text-gray-300"
                     target="_blank"
-                    rel="noopener">
+                    rel="noopener"
+                >
                         view on ord.io
                 </a>
                 <a
                     href="https://luminex.io/rune/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
                     class="pl-12 hover:text-gray-300"
                     target="_blank"
-                    rel="noopener">
+                    rel="noopener"
+                >
                         view on lumninex.io
                 </a>
-            </div>
+                <a
+                    href="https://unisat.io/runes/market?tick=BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
+                    class="pl-12 hover:text-gray-300"
+                    target="_blank"
+                    rel="noopener"
+                >
+                        trade on unisat.io
+                </a>
+           </div>
         </div>
 
-        <div class="w-full max-w-2xl text-sm mx-auto flex align-middle px-4 sm:px-6 md:px-8 text-gray-400">
+        <div class="w-full max-w-2xl text-sm mx-auto flex align-middle px-4 sm:px-6 md:px-8 text-gray-500">
             <div class="p-6 w-full flex">
-                Pepe on Runes | No Premine | 100% Minted | Community
+                Pepe on Runes <span class="px-4">|</span> No Premine <span class="px-4">|</span> 100% Minted <span class="px-4">|</span> Community
             </div>
         </div>
 
