@@ -69,7 +69,7 @@
                 </a>
                 <a
                     href="https://luminex.io/rune/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
-                    class="pl-12 hover:text-slate-300"
+                    class="pl-6 hover:text-slate-300"
                     target="_blank"
                     rel="noopener"
                 >
@@ -81,9 +81,17 @@
                     target="_blank"
                     rel="noopener"
                 >
-                        trade on unisat.io
+                        trade on unisat
                 </a>
-           </div>
+                <a
+                    href="https://www.okx.com/nl/web3/marketplace/runes/token/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX/840202:2950"
+                    class="pl-6 hover:text-slate-300"
+                    target="_blank"
+                    rel="noopener"
+                >
+                        trade on okx
+                </a>
+            </div>
         </div>
 
         <div class="w-full max-w-2xl text-sm mx-auto flex align-middle px-4 sm:px-6 md:px-8 text-slate-500">
