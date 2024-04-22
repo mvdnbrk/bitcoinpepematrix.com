@@ -34,7 +34,7 @@
                 <a href="https://twitter.com/BTCPepeMatrix"
                     class="hover:text-gray-300" target="_blank"
                     rel="noopener">
-                    <span class="sr-only">Telegram</span>
+                    <span class="sr-only">Twitter / X</span>
                     <x-icon-twitter-x class="w-6 h-6" />
                 </a>
                 <a
