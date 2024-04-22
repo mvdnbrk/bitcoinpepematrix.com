@@ -129,15 +129,13 @@
             </div>
         </div>
 
-        <div class="w-full max-w-2xl text-sm mx-auto flex align-middle px-4 sm:px-6 md:px-8 text-slate-500">
-            <div class="p-2 w-full flex">
+        <div class="w-full max-w-2xl text-sm mx-auto px-4 sm:px-6 md:px-8 text-slate-500">
+            <div class="p-2 w-full flex items-center">
                 Pepe on Runes
                 <span class="px-4">|</span>
-                No Premine
-                <span class="px-4">|</span>
-                100% Minted
-                <span class="px-4">|</span>
                 Community
+                <span class="px-4">|</span>
+                Built with <span class="sr-only">love</span> <x-icon-heart class="mx-2 w-4 h-4" />
             </div>
         </div>
 
