@@ -33,6 +33,41 @@
 
         <div class="mt-4 w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-slate-400">
             <div class="p-6 flex w-full">
+                <dl class="divide-y divide-white/10">
+                    <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                        <dt class="text-sm font-medium leading-6 text-white">RUNE ID</dt>
+                        <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">840202:2950</dd>
+                    </div>
+                    <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                        <dt class="text-sm font-medium leading-6 text-white">DEPLOY DATE</dt>
+                        <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">Apr 21 01:46 pm</dd>
+                    </div>
+                    <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                        <dt class="text-sm font-medium leading-6 text-white">MINT BLOCK</dt>
+                        <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">840269 - 841420</dd>
+                    </div>
+                    <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                        <dt class="text-sm font-medium leading-6 text-white">PREMINE</dt>
+                        <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">0</dd>
+                    </div>
+                    <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                        <dt class="text-sm font-medium leading-6 text-white">DECIMAL</dt>
+                        <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">0</dd>
+                    </div>
+                    <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                        <dt class="text-sm font-medium leading-6 text-white">MAX SUPPLY</dt>
+                        <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">6.9 B</dd>
+                    </div>
+                      <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                        <dt class="text-sm font-medium leading-6 text-white">HOLDER COUNT</dt>
+                        <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">&gt; 15000</dd>
+                    </div>
+                 </dl>
+            </div>
+        </div>
+
+        <div class="mt-4 w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-slate-400">
+            <div class="p-6 flex w-full">
                 <a href="https://linktr.ee/bitcoinpepematrix"
                     class="hover:text-slate-200" target="_blank"
                     rel="noopener">
