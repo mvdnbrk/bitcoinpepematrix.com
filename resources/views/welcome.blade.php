@@ -31,8 +31,14 @@
 
         <div class="mt-4 w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-gray-400">
             <div class="p-6 flex w-full">
-                <a href="https://twitter.com/BTCPepeMatrix"
+                <a href="https://linktr.ee/bitcoinpepematrix"
                     class="hover:text-gray-300" target="_blank"
+                    rel="noopener">
+                    <span class="sr-only">Linktree</span>
+                    <x-icon-linktree class="w-6 h-6" />
+                </a>
+                <a href="https://twitter.com/BTCPepeMatrix"
+                    class="pl-6 hover:text-gray-300" target="_blank"
                     rel="noopener">
                     <span class="sr-only">Twitter / X</span>
                     <x-icon-twitter-x class="w-6 h-6" />
