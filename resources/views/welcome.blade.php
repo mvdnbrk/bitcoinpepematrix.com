@@ -24,6 +24,7 @@
 <body>
 
 <canvas id="matrix" class="absolute z-0"></canvas>
+
 <div class="antialiased opacity-80">
     <section class="h-screen relative z-10 overflow-hidden bg-gradient-to-b from-black to-slate-900 flex flex-col justify-center">
 
@@ -210,7 +211,6 @@ setTimeout(draw, 33);
 draw();
 
 </script>
-
 
 </body>
 </html>
