@@ -10,13 +10,8 @@
     <meta property="og:site_name" content="{{ config('app.name') }}">
 
     <x-twitter-card/>
-
     <x-favicons/>
-
-    <link rel="preconnect" href="https://rsms.me">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-
-    @vite('resources/css/app.css')
+    <x-css-and-fonts/>
 
     <script src="https://cdn.usefathom.com/script.js" data-site="DIUZIVZB" defer></script>
 </head>
