@@ -27,7 +27,7 @@
 
             <div class="w-full max-w-2xl mx-auto px-4 sm:px-6 md:px-8 relative z-20 flex align-middle mb-3">
                 <div class="p-2 bg-slate-950 border-t border-gray-700 shadow rounded-xl space-y-2 text-slate-200">
-                    <img src="https://ordin-delta.vercel.app/content/6ea0f940a1386cbb146e134933ca3533c0759101a46744d0b207a283f5f57b23i0" alt="Bitcoin Pepe Matrix" class="h-full w-fit max-w-full rounded-xl" width="240" height="240">
+                    <img src="{{ secure_url('images/bitcoin-pepe-matrix.gif') }}" alt="Bitcoin Pepe Matrix" class="h-full w-fit max-w-full rounded-xl" width="240" height="240">
                     <p class="font-semibold py-2 text-xl">
                         BITCOIN•PEPE•MATRIX
                     </p>
