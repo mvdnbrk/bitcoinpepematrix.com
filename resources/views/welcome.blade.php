@@ -74,7 +74,7 @@
 
             <div class="w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-white">
                 <div class="p-2 flex w-full">
-                <a
+                    <a
                         href="https://www.ord.io/runes/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
                         class="hover:text-slate-300"
                         target="_blank"
