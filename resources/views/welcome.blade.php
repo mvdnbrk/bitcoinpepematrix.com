@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ config('app.name') }}</title>
-    <meta property="og:site_name" content="{{ config('app.name') }}">
+    <title>{{ config('rune.ticker') }}</title>
+    <meta property="og:site_name" content="{{ config('rune.ticker') }}">
 
     <x-twitter-card/>
     <x-favicons/>
@@ -16,6 +16,7 @@
     <script src="https://cdn.usefathom.com/script.js" data-site="DIUZIVZB" defer></script>
 </head>
 <body>
+
 <div class="bg-slate-950">
     <main>
         <div class="relative isolate overflow-hidden">
@@ -24,6 +25,7 @@
                 <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
                     <x-icon-bitcoin class="h-11 fill-red-600" />
                     <h1 class="mt-10 text-2xl font-bold tracking-tight text-white sm:text-4xl">
+
                         {{ config('rune.ticker') }}
                     </h1>
                     <div class="mt-10 flex items-center gap-x-6 text-slate-300">
