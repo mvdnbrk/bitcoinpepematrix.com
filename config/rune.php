@@ -12,9 +12,7 @@ return [
 
     'etching_tx' => '6ea0f940a1386cbb146e134933ca3533c0759101a46744d0b207a283f5f57b23',
 
-    'timestamp' => '2024-04-21 11:46:29 UTC',
-
-    'deploy_date' => 'Apr 21 01:46 pm',
+    'deploy_datetime' => '2024-04-21 11:46:29 UTC',
 
     'ticker' => 'BITCOIN•PEPE•MATRIX',
 
