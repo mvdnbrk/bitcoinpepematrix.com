@@ -17,73 +17,52 @@
 </head>
 <body>
 
-    <canvas id="matrix" class="absolute z-0"></canvas>
+<div class="bg-slate-950">
+    <main>
+        <div class="relative isolate overflow-hidden">
+            <canvas id="matrix" class="absolute -z-10 h-full w-full" aria-hidden="true"></canvas>
+            <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-40 lg:flex lg:px-8 lg:pt-40">
+                <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
+                    <x-icon-bitcoin class="h-11 fill-red-600" />
+                    <h1 class="mt-10 text-2xl font-bold tracking-tight text-white sm:text-4xl">
 
-    <div class="antialiased opacity-80">
-        <section class="h-screen relative z-10 overflow-hidden bg-gradient-to-b from-black to-slate-900 flex flex-col justify-center">
-
-            <div class="w-full max-w-2xl mx-auto px-4 sm:px-6 md:px-8 relative z-20 flex align-middle mb-3">
-                <div class="p-2 bg-slate-950 border-t border-gray-700 shadow rounded-xl space-y-2 text-slate-200">
-                    <img src="{{ secure_url('images/bitcoin-pepe-matrix.gif') }}" alt="{{ config('rune.ticker') }}" class="h-full w-fit max-w-full rounded-xl" width="240" height="240">
-                    <p class="font-semibold py-2 text-xl">
                         {{ config('rune.ticker') }}
-                    </p>
+                    </h1>
+                    <div class="mt-10 flex items-center gap-x-6 text-slate-300">
+                        <x-social-links/>
+                    </div>
+                </div>
+                <div class="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
+                    <div class="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
+                    <div class="rounded-2xl bg-slate-900 p-2">
+                    <img src="{{ secure_url('images/bitcoin-pepe-matrix.gif') }}" alt="{{ config('rune.ticker') }}" width="240" height="240" class="w-[16rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10">
                 </div>
             </div>
+        </div>
+    </main>
 
-            <div class="mt-6 w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-slate-400">
-                <div class="p-2 flex w-full">
-                    <x-social-links/>
-                </div>
-            </div>
-
-            <div class="mt-2 w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-slate-400">
-                <div class="p-2 flex w-full">
-                    <x-rune-specs/>
-                </div>
-            </div>
-
-            <div class="mt-4 w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-white">
-                <div class="p-2 flex w-full">
-                    <x-marketplaces/>
-                </div>
-            </div>
-
-            <div class="w-full max-w-2xl text-sm mx-auto flex px-4 sm:px-6 md:px-8 text-white">
-                <div class="p-2 flex w-full">
-                    <a
-                        href="https://www.ord.io/runes/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
-                        class="hover:text-slate-300"
-                        target="_blank"
-                        rel="noopener"
-                    >
-                            view on ord.io
-                    </a>
-                    <a
-                        href="https://luminex.io/rune/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
-                        class="pl-6 hover:text-slate-300"
-                        target="_blank"
-                        rel="noopener"
-                    >
-                            view on luminex.io
-                    </a>
-            </div>
-            </div>
-
-            <div class="w-full max-w-2xl text-sm mx-auto px-4 sm:px-6 md:px-8 text-slate-500">
-                <div class="p-2 w-full flex items-center">
-                    Pepe on <span class="sr-only">Bitcoin</span> <x-icon-bitcoin class="mx-2 w-4 h-4" /> Runes
-                    <span class="px-4">|</span>
-                    Community
-                    <span class="px-4">|</span>
-                    Built with <span class="sr-only">love</span> <x-icon-heart class="mx-2 w-4 h-4" />
-                </div>
-            </div>
-
-        </section>
+    <div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
+        <x-marketplaces/>
     </div>
 
-    @vite('resources/js/app.js')
+    <div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
+        <x-rune-specs/>
+    </div>
 
-    </body>
+    <footer aria-labelledby="footer-heading" class="relative">
+        <h2 id="footer-heading" class="sr-only">Footer</h2>
+        <div class="mx-auto max-w-7xl px-6 pb-8 pt-4 lg:px-8">
+            <div class="border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
+            <div class="flex space-x-6 md:order-2 text-gray-400">
+                <x-social-links/>
+            </div>
+            <p class="flex mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
+                &copy; 2024 {{ config('rune.ticker') }}. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</div>
+
+@vite('resources/js/app.js')
+
 </html>
