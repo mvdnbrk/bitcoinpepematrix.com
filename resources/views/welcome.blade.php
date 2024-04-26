@@ -34,9 +34,9 @@
                     </div>
                 </div>
                 <div class="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
-                    <div class="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
                     <div class="rounded-2xl bg-slate-900 p-2">
-                    <img src="{{ secure_url('images/bitcoin-pepe-matrix.gif') }}" alt="{{ config('rune.ticker') }}" width="240" height="240" class="w-[16rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10">
+                        <img src="{{ secure_url('images/bitcoin-pepe-matrix.gif') }}" alt="{{ config('rune.ticker') }}" width="240" height="240" class="w-[16rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10">
+                    </div>
                 </div>
             </div>
         </div>
@@ -54,12 +54,13 @@
         <h2 id="footer-heading" class="sr-only">Footer</h2>
         <div class="mx-auto max-w-7xl px-6 pb-8 pt-4 lg:px-8">
             <div class="border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
-            <div class="flex space-x-6 md:order-2 text-gray-400">
-                <x-social-links/>
+                <div class="flex space-x-6 md:order-2 text-gray-400">
+                    <x-social-links/>
+                </div>
+                <p class="flex mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
+                    &copy; 2024 {{ config('rune.ticker') }}. All rights reserved.
+                </p>
             </div>
-            <p class="flex mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
-                &copy; 2024 {{ config('rune.ticker') }}. All rights reserved.
-            </p>
         </div>
     </footer>
 </div>
