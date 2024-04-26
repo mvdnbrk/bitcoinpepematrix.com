@@ -7,7 +7,7 @@
     <x-icon-linktree class="w-6 h-6" />
 </a>
 <a
-    href="https://twitter.com/BTCPepeMatrix"
+    href="{{ config('socials.twitter') }}"
     class="pl-6 hover:text-slate-200"
     target="_blank"
     rel="noopener"
@@ -16,7 +16,7 @@
     <x-icon-twitter-x class="w-6 h-6" />
 </a>
 <a
-    href="https://t.me/bitcoinpepematrix"
+    href="{{ config('socials.telegram') }}"
     class="pl-6 hover:text-slate-200"
     target="_blank"
     rel="noopener"
