@@ -1,14 +1,6 @@
 <a
-    href="https://linktr.ee/bitcoinpepematrix"
-    class="hover:text-slate-200" target="_blank"
-    rel="noopener"
->
-    <span class="sr-only">Linktree</span>
-    <x-icon-linktree class="w-6 h-6" />
-</a>
-<a
     href="{{ config('socials.twitter') }}"
-    class="pl-6 hover:text-slate-200"
+    class="hover:text-slate-200"
     target="_blank"
     rel="noopener"
 >
