@@ -1,0 +1,11 @@
+<?php
+
+return [
+
+    'unisat' => 'https://unisat.io/runes/market?tick=BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX ',
+
+    'magiceden' => 'https://magiceden.io/runes/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX',
+
+    'okx' => 'https://www.okx.com/nl/web3/marketplace/runes/token/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX/840202:2950',
+
+];
