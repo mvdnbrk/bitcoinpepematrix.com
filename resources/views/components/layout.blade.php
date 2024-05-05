@@ -15,24 +15,12 @@
 
     <script src="https://cdn.usefathom.com/script.js" data-site="DIUZIVZB" defer></script>
 </head>
-<body>
-
-<div class="bg-slate-950">
+<body class="bg-slate-950">
     <main>
     {{ $slot }}
     </main>
 
-    <div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
-        <x-marketplaces/>
-    </div>
-
-    <div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
-        <x-rune-specs/>
-    </div>
-
     <x-footer/>
-</div>
 
-@vite('resources/js/app.js')
-
+    @vite('resources/js/app.js')
 </html>
