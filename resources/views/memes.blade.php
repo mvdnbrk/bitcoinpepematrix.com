@@ -8,9 +8,9 @@
     <div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
             @foreach ($files as $file)
-            <a href="{{ asset($file) }}" target="_blank">
+            <a href="{{ asset('images/'.$file) }}" target="_blank">
                 <img
-                    src="{{ asset($file) }}"
+                    src="{{ asset('images/'.$file) }}"
                     class="object-cover object-center w-full h-auto max-w-full rounded-lg"
                 >
             </a>

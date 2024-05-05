@@ -71,7 +71,7 @@ return [
 
     'links' => [
         // public_path('storage') => storage_path('app/public'),
-        public_path('memes') => storage_path('app/memes'),
+        public_path('images/memes') => storage_path('app/memes'),
     ],
 
 ];
