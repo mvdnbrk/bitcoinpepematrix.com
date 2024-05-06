@@ -19,6 +19,13 @@
                         <span class="sr-only">Charts</span>
                         <x-icon-chart-line class="w-6 h-6" />
                     </a>
+                    <a
+                        href="{{ route('memes') }}"
+                        class="pl-6 hover:text-slate-200"
+                    >
+                        <span class="sr-only">Memes</span>
+                        <x-icon-image class="w-6 h-6" />
+                    </a>
                 </div>
             </div>
             <div class="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
