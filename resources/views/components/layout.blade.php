@@ -10,7 +10,7 @@
     <meta property="og:description" content="Pepe on Bitcoin Runes | The ticker is {{ config('rune.ticker') }}  | Community Run">
 
     <x-head.meta-twitter/>
-    <x-favicons/>
+    <x-head.favicons/>
     <x-head.css-fonts/>
 
     <script src="https://cdn.usefathom.com/script.js" data-site="DIUZIVZB" defer></script>
