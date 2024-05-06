@@ -5,7 +5,7 @@
         </h1>
     </div>
 
-    <div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
+    <x-layout.section>
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
             @foreach ($files as $file)
             <a href="{{ asset('images/'.$file) }}" target="_blank">
@@ -16,5 +16,5 @@
             </a>
             @endforeach
         </div>
-    </div>
+    </x-layout.section>
 </x-layout.main>
