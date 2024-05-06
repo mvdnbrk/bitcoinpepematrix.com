@@ -20,7 +20,7 @@
     {{ $slot }}
     </main>
 
-    <x-footer/>
+    <x-layout.footer/>
 
     @vite('resources/js/app.js')
 </html>
