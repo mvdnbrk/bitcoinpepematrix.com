@@ -1,5 +1,5 @@
 
-<x-layout>
+<x-layout.main>
     <div class="relative isolate overflow-hidden">
         <canvas id="matrix" class="absolute -z-10 h-full w-full" aria-hidden="true"></canvas>
         <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-40 lg:flex lg:px-8 lg:pt-40">
@@ -43,4 +43,4 @@
     <div class="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
         <x-rune-specs/>
     </div>
-</x-layout>
+</x-layout.main>
