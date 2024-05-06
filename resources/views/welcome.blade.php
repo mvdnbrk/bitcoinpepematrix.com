@@ -10,6 +10,15 @@
                 </h1>
                 <div class="mt-10 flex items-center gap-x-6 text-slate-300">
                     <x-social-links/>
+                    <a
+                        href="https://www.satscreener.com/runes/840202:2950"
+                        class="pl-6 hover:text-slate-200"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <span class="sr-only">Charts</span>
+                        <x-icon-chart-line class="w-6 h-6" />
+                    </a>
                 </div>
             </div>
             <div class="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
