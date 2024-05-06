@@ -9,7 +9,7 @@
     <meta property="og:site_name" content="{{ config('rune.ticker') }}">
     <meta property="og:description" content="Pepe on Bitcoin Runes | The ticker is {{ config('rune.ticker') }}  | Community Run">
 
-    <x-twitter-card/>
+    <x-head.meta-twitter/>
     <x-favicons/>
     <x-css-and-fonts/>
 
