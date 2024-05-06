@@ -11,7 +11,7 @@
 
     <x-head.meta-twitter/>
     <x-favicons/>
-    <x-css-and-fonts/>
+    <x-head.css-fonts/>
 
     <script src="https://cdn.usefathom.com/script.js" data-site="DIUZIVZB" defer></script>
 </head>
