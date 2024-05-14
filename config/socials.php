@@ -6,6 +6,6 @@ return [
 
     'telegram' => 'https://t.me/bitcoinpepematrix',
 
-    'discord' => 'https://discord.gg/gUKN3BT7j9',
+    'discord' => 'https://discord.gg/XnxKTF5vzC',
 
 ];
