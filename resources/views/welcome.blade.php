@@ -11,7 +11,7 @@
                 <div class="mt-10 flex items-center gap-x-6 text-slate-300">
                     <x-social-links/>
                     <a
-                        href="https://www.satscreener.com/runes/840202:2950"
+                        href="https://geniidata.com/ordinals/runes/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
                         class="pl-6 hover:text-slate-200"
                         target="_blank"
                         rel="noopener"
