@@ -2,7 +2,7 @@
 
 return [
 
-    'twitter' => 'https://twitter.com/BTCPepeMatrix',
+    'twitter' => 'https://x.com/BTCPepeMatrix',
 
     'telegram' => 'https://t.me/bitcoinpepematrix',
 
