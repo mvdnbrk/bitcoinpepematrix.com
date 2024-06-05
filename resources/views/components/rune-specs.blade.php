@@ -1,4 +1,4 @@
-<dl class="divide-y divide-white/10">
+<dl class="divide-y divide-lime-950">
     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
         <dt class="text-sm font-medium leading-6 text-white">
             RUNE ID
