@@ -2,7 +2,7 @@
 
 # BITCOIN•PEPE•MATRIX
 
-This is the source code of the [BITCOIN•PEPE•MATRIX][link-website] website.
+This is the source of the [bitcoinpepematrix.com][link-website] website.
 
 Built with love on:
 
@@ -17,4 +17,4 @@ Please review [our security policy](../../security/policy) on how to report secu
 - [Mark van den Broek](https://github.com/mvdnbrk)
 - [All Contributors](../../contributors)
 
-[link-website]: [https://pokemonfan.club](https://bitcoinpepematrix.com)
+[link-website]: https://bitcoinpepematrix.com
