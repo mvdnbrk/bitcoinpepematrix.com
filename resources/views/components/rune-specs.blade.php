@@ -17,6 +17,21 @@
     </div>
     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
         <dt class="text-sm font-medium leading-6 text-white">
+            DEPLOY TX
+        </dt>
+        <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
+            <a
+                href="{{ Str::of('https://ordiscan.com/tx/')->append(config('rune.etching_tx')) }}"
+                target="_blank"
+                rel="noopener"
+                class="underline hover:no-underline"
+            >
+                {{ Str::of(config('rune.etching_tx'))->mask('.', 5, -5)->replaceMatches('/(\.)\\1+/', '.....') }}
+            </a>
+        </dd>
+    </div>
+    <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+        <dt class="text-sm font-medium leading-6 text-white">
             MINT BLOCK
         </dt>
         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
