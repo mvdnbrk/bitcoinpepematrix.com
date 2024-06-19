@@ -8,7 +8,7 @@
                 <h1 class="mt-10 text-2xl font-bold tracking-wider text-white sm:text-4xl">
                     {{ config('rune.ticker') }}
                 </h1>
-                <div class="mt-10 flex items-center gap-x-6 text-slate-300">
+                <div class="mt-10 -ml-6 flex items-center gap-x-6 text-slate-300">
                     <x-social-links/>
                     <a
                         href="https://geniidata.com/ordinals/runes/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"

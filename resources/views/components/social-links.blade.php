@@ -1,6 +1,6 @@
 <a
     href="{{ config('socials.twitter') }}"
-    class="hover:text-slate-200"
+    class="pl-6 hover:text-slate-200"
     target="_blank"
     rel="noopener"
 >
