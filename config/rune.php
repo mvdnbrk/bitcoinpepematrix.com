@@ -28,6 +28,6 @@ return [
 
     'burned' => 69420,
 
-    'approx_holder_count' => 14560,
+    'approx_holder_count' => 14510,
 
 ];
