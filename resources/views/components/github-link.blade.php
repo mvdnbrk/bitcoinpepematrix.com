@@ -1,6 +1,6 @@
 <a
     href="https://github.com/mvdnbrk/bitcoinpepematrix.com"
-    class="pl-6 hover:text-slate-200"
+    class="hover:text-slate-200"
     target="_blank"
     rel="noopener"
 >
