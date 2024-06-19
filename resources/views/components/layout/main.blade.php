@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{{ $title ?? config('rune.ticker') }}</title>
-    <meta property="og:site_name" content="{{ config('rune.ticker') }}">
-    <meta property="og:description" content="Pepe on Bitcoin Runes | The ticker is {{ config('rune.ticker') }}  | Community Run">
 
+    <meta name="description" content="Pepe on Bitcoin Runes | The ticker is BITCOIN•PEPE•MATRIX  | Community Run">
+
+    <x-head.meta-opengraph/>
     <x-head.meta-twitter/>
     <x-head.favicons/>
     <x-head.css-fonts/>
