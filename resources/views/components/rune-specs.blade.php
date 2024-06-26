@@ -12,7 +12,7 @@
             RUNE NUMBER
         </dt>
         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
-            {{ config('rune.number') }}
+            {{ $rune->number }}
         </dd>
     </div>
     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -34,7 +34,7 @@
                 rel="noopener"
                 class="underline hover:no-underline"
             >
-                {{ Str::of(config('rune.etching_tx'))->mask('.', 5, -5)->replaceMatches('/(\.)\\1+/', '.....') }}
+                {{ Str::of($rune->etching_tx)->mask('.', 5, -5)->replaceMatches('/(\.)\\1+/', '.....') }}
             </a>
         </dd>
     </div>
@@ -51,7 +51,7 @@
             PREMINE
         </dt>
         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
-            {{ config('rune.premine') }}
+            {{ $rune->premine }}
         </dd>
     </div>
     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -59,7 +59,7 @@
             SYMBOL
         </dt>
         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
-            {{ config('rune.symbol') }}
+            {{ $rune->symbol }}
         </dd>
     </div>
     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -67,7 +67,7 @@
             DECIMAL
         </dt>
         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
-            {{ config('rune.decimal') }}
+            {{ $rune->decimal }}
         </dd>
     </div>
     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -75,7 +75,7 @@
             TOTAL SUPPLY
         </dt>
         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
-            {{ config('rune.total_supply') }}
+            {{ Number::forHumans($rune->supply, precision: 1) }}
         </dd>
     </div>
     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -83,7 +83,7 @@
             BURNED
         </dt>
         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
-            {{ Number::forHumans(config('rune.burned'), precision: 0) }}
+            {{ Number::forHumans($rune->burned, precision: 0) }}
         </dd>
     </div>
     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
