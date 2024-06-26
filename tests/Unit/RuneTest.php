@@ -84,7 +84,7 @@ class RuneTest extends TestCase
         $this->assertEquals(200, $rune->burned);
     }
 
-    public function test_rune_has_an_etching_transaction(): void
+    public function test_rune_has_an_etching_tx(): void
     {
         $rune = new Rune($this->validParams([
             'etching_tx' => 'tx12abc34',
