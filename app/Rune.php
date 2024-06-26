@@ -2,6 +2,8 @@
 
 namespace App;
 
+use Illuminate\Support\Str;
+
 class Rune
 {
     public string $id;
@@ -12,6 +14,7 @@ class Rune
     public int $burned = 0;
     public string $symbol = '';
     public string $ticker = '';
+    public string $tickerWithoutSpacers = '';
     public int $etching_block = 0;
     public int $etching_transaction = 0;
     public string $etching_tx = '';
@@ -25,5 +28,6 @@ class Rune
         }
 
         $this->id = $this->etching_block . ':' . $this->etching_transaction;
+        $this->tickerWithoutSpacers = Str::of($this->ticker)->remove('•');
     }
 }

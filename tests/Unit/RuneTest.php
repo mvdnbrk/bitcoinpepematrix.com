@@ -32,6 +32,15 @@ class RuneTest extends TestCase
         $this->assertEquals('TEST•TICKER', $rune->ticker);
     }
 
+    public function test_rune_has_a_ticker_without_spacers(): void
+    {
+        $rune = new Rune($this->validParams([
+            'ticker' => 'TICKER•WITH•SPACERS',
+        ]));
+
+        $this->assertEquals('TICKERWITHSPACERS', $rune->tickerWithoutSpacers);
+    }
+
     public function test_rune_has_a_number(): void
     {
         $rune = new Rune($this->validParams([
