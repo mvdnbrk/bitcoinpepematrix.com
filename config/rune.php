@@ -24,7 +24,7 @@ return [
 
     'premine' => 0,
 
-    'total_supply' => '6.9 B',
+    'supply' => 6942069420,
 
     'burned' => 69420,
 
