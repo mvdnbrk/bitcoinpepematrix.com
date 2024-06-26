@@ -2,8 +2,6 @@
 
 return [
 
-    'id' => '840202:2950',
-
     'number' => 4241,
 
     'etching_block' => 840202,

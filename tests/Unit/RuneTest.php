@@ -17,6 +17,8 @@ class RuneTest extends TestCase
             'premine' => 0,
             'burned' => 0,
             'ticker' => 'BITCOIN•PEPE•MATRIX',
+            'etching_block' => 0,
+            'etching_transaction' => 0,
             'etching_tx' => 'abcd',
         ], $overrides);
     }
@@ -82,6 +84,34 @@ class RuneTest extends TestCase
         ]));
 
         $this->assertEquals(200, $rune->burned);
+    }
+
+    public function test_rune_has_an_etching_block(): void
+    {
+        $rune = new Rune($this->validParams([
+            'etching_block' => 84000,
+        ]));
+
+        $this->assertEquals(84000, $rune->etching_block);
+    }
+
+    public function test_rune_has_an_etching_transaction(): void
+    {
+        $rune = new Rune($this->validParams([
+            'etching_transaction' => 456,
+        ]));
+
+        $this->assertEquals(456, $rune->etching_transaction);
+    }
+
+    public function test_rune_has_an_id(): void
+    {
+        $rune = new Rune($this->validParams([
+            'etching_block' => 123,
+            'etching_transaction' => 789,
+        ]));
+
+        $this->assertEquals('123:789', $rune->id);
     }
 
     public function test_rune_has_an_etching_tx(): void
