@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use App\Rune;
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 
 class RuneTest extends TestCase
 {
