@@ -86,12 +86,14 @@
             {{ Number::forHumans($rune->burned, precision: 0) }}
         </dd>
     </div>
+    @if(Cache::has('holder_count'))
     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
         <dt class="text-sm font-medium leading-6 text-white">
             HOLDERS
         </dt>
         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
-            ~ {{ config('rune.approx_holder_count') }}
+            {{ Cache::get('holder_count') }}
         </dd>
     </div>
+    @endif
 </dl>
