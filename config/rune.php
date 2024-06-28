@@ -26,6 +26,4 @@ return [
 
     'burned' => 69420,
 
-    'approx_holder_count' => 14500,
-
 ];
