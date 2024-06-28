@@ -17,7 +17,7 @@ class CacheHolderCountCommand extends Command
     {
         $rune =  new Rune(config('rune'));
 
-        CacheHolderCount::dispatch($rune);
+        CacheHolderCount::dispatchSync($rune);
 
         $this->info('The holder count for '.$rune->ticker.' is '.Cache::get('holder_count', default: 'unknown'));
     }
