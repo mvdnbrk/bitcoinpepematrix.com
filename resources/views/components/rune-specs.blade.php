@@ -113,6 +113,19 @@
         </dt>
         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
             {{ Number::format(Cache::get('market_cap'), precision: 2) }} BTC
+            @if(Cache::has('bitcoin_price'))
+                / {{ Number::currency(Cache::get('bitcoin_price') * Cache::get('market_cap'), in: 'USD') }}
+            @endif
+        </dd>
+    </div>
+    @endif
+    @if(Cache::has('bitcoin_price'))
+    <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+        <dt class="text-sm font-medium leading-6 text-white">
+            BITCOIN PRICE
+        </dt>
+        <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
+            {{ Number::currency(Cache::get('bitcoin_price'), in: 'USD') }}
         </dd>
     </div>
     @endif
