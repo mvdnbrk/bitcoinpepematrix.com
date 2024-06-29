@@ -102,7 +102,7 @@
             FLOOR PRICE
         </dt>
         <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
-            {{ Number::format(Cache::get('floor_price'), precision: 12) }} {{ Str::of('sats')->append('/')->append($rune->symbol) }}
+            {{ Cache::get('floor_price') }} {{ Str::of('sats')->append('/')->append($rune->symbol) }}
         </dd>
     </div>
     @endif
