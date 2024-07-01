@@ -2,8 +2,8 @@
 
 namespace App\Jobs;
 
-use App\Models\RunePrice;
 use App\Rune;
+use App\Models\RunePrice;
 use Illuminate\Bus\Queueable;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Queue\InteractsWithQueue;
