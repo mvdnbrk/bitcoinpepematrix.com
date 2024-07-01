@@ -14,6 +14,10 @@ return [
     |
     */
 
+    'horizon' => [
+        'token' => env('HORIZON_TOKEN')
+    ],
+
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
