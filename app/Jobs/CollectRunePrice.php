@@ -6,12 +6,13 @@ use App\Models\RunePrice;
 use App\Rune;
 use Illuminate\Bus\Queueable;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 
 class CollectRunePrice implements ShouldQueue
 {
-    use Dispatchable, Queueable;
+    use Dispatchable, InteractsWithQueue, Queueable;
 
     protected string $apiUrl;
 
