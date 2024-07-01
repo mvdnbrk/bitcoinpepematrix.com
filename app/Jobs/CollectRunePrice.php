@@ -15,7 +15,7 @@ class CollectRunePrice implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
-    protected string $apiUrl;
+    public string $apiUrl;
 
     public function __construct(
         public Rune $rune,
