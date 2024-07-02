@@ -8,6 +8,7 @@ Schedule::command('bitcoin:cache-price')->everyFiveMinutes();
 Schedule::command('rune:cache-floor-price')->everyFiveMinutes();
 Schedule::command('rune:cache-market-cap')->everyFifteenMinutes();
 Schedule::command('rune:cache-holder-count')->hourly();
+Schedule::command('rune:cache-transaction-count')->daily();
 
 Schedule::job(new CollectRunePrice(
     new Rune(config('rune'))
