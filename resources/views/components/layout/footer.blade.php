@@ -1,7 +1,7 @@
 <footer aria-labelledby="footer-heading" class="relative pt-12">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-4 lg:px-8">
-        <div class="border-t border-gray-600 text-lime-600 pt-8 md:flex md:items-center md:justify-between">
+        <div class="border-t border-gray-600 text-green-600 pt-8 md:flex md:items-center md:justify-between">
             <div class="flex space-x-6 md:order-4">
                 <x-github-link/>
                 <x-social-links/>

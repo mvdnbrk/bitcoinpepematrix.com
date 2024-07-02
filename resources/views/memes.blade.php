@@ -1,7 +1,7 @@
 <x-layout.main title="{{ $rune->ticker }} - MEMES">
     <div class="flex mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
         <h1 class="text-2xl font-bold tracking-wider text-white sm:text-4xl">
-            {{ $rune->ticker }} <span class="pl-4 text-green-500">MEMES</span>
+            {{ $rune->ticker }} <span class="pl-4 text-green-600">MEMES</span>
         </h1>
     </div>
 
