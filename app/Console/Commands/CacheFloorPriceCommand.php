@@ -15,7 +15,7 @@ class CacheFloorPriceCommand extends Command
 
     public function handle()
     {
-        $rune =  new Rune(config('rune'));
+        $rune = new Rune(config('rune'));
 
         CacheFloorPrice::dispatchSync($rune);
 

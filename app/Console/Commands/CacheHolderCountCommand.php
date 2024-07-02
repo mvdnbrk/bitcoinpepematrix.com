@@ -15,7 +15,7 @@ class CacheHolderCountCommand extends Command
 
     public function handle()
     {
-        $rune =  new Rune(config('rune'));
+        $rune = new Rune(config('rune'));
 
         CacheHolderCount::dispatchSync($rune);
 
