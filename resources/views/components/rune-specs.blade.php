@@ -106,6 +106,16 @@
         </dd>
     </div>
     @endif
+    @if(Cache::has('volume_in_btc_30_days'))
+    <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+        <dt class="text-sm font-medium leading-6 text-white">
+            VOLUME IN LAST 30 DAYS
+        </dt>
+        <dd class="mt-1 text-sm leading-6 text-slate-400 sm:col-span-2 sm:mt-0">
+            {{ Number::format(Cache::get('volume_in_btc_30_days'), precision: 2) }} BTC
+        </dd>
+    </div>
+    @endif
     @if(Cache::has('floor_price'))
     <div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
         <dt class="text-sm font-medium leading-6 text-white">
