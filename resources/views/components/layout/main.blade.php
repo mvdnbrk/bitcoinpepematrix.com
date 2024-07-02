@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ $title ?? config('rune.ticker') }}</title>
+    <title>{{ $title ?? $rune->ticker }}</title>
 
     <meta name="description" content="Pepe on Bitcoin Runes | The ticker is BITCOIN•PEPE•MATRIX  | Community Run">
 
