@@ -2,11 +2,11 @@
 
 namespace Tests\Unit\Jobs;
 
-use App\Rune;
-use Tests\TestCase;
 use App\Jobs\CacheFloorPrice;
-use Illuminate\Support\Facades\Http;
+use App\Rune;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Http;
+use Tests\TestCase;
 
 class CacheFloorPriceTest extends TestCase
 {

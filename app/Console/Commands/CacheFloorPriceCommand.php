@@ -2,8 +2,8 @@
 
 namespace App\Console\Commands;
 
-use App\Rune;
 use App\Jobs\CacheFloorPrice;
+use App\Rune;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;
 

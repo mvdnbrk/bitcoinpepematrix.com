@@ -1,7 +1,7 @@
 <?php
 
-use App\Rune;
 use App\Jobs\CollectRunePrice;
+use App\Rune;
 use Illuminate\Support\Facades\Schedule;
 
 Schedule::command('bitcoin:cache-price')->everyFiveMinutes();

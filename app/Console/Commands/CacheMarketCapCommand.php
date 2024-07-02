@@ -2,8 +2,8 @@
 
 namespace App\Console\Commands;
 
-use App\Rune;
 use App\Jobs\CacheMarketCap;
+use App\Rune;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;
 
@@ -15,7 +15,7 @@ class CacheMarketCapCommand extends Command
 
     public function handle()
     {
-        $rune =  new Rune(config('rune'));
+        $rune = new Rune(config('rune'));
 
         CacheMarketCap::dispatchSync($rune);
 

@@ -2,10 +2,10 @@
 
 namespace Tests\Unit\Jobs;
 
-use Tests\TestCase;
 use App\Jobs\CacheBitcoinPrice;
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Http;
+use Tests\TestCase;
 
 class CacheBitcoinPriceTest extends TestCase
 {
