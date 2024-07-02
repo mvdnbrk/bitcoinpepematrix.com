@@ -37,6 +37,10 @@
     </div>
 
     <x-layout.section>
+        <x-statistics/>
+    </x-layout.section>
+
+    <x-layout.section>
         <x-marketplaces/>
     </x-layout.section>
 
