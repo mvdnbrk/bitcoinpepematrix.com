@@ -6,12 +6,6 @@
         </dd>
     </div>
     <div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
-        <dt class="text-sm leading-6">TRADES (30D)</dt>
-        <dd class="order-first text-3xl font-semibold tracking-tight">
-            {{ Cache::get('transaction_count_30_days') }}
-        </dd>
-    </div>
-    <div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
         <dt class="text-sm leading-6">MARKET CAP</dt>
         <dd class="order-first text-3xl font-semibold tracking-tight">
             {{ Number::format(Cache::get('market_cap'), precision: 2) }} BTC
@@ -21,6 +15,12 @@
         <dt class="text-sm leading-6">FLOOR PRICE</dt>
         <dd class="order-first text-3xl font-semibold tracking-tight">
             {{ Number::format(Cache::get('floor_price'), precision: 2) }} sats
+        </dd>
+    </div>
+    <div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+        <dt class="text-sm leading-6">TRADES (30D)</dt>
+        <dd class="order-first text-3xl font-semibold tracking-tight">
+            {{ Cache::get('transaction_count_30_days') }}
         </dd>
     </div>
 </dl>
