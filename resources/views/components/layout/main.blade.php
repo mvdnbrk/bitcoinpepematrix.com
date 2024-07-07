@@ -14,7 +14,9 @@
     <x-head.favicons/>
     <x-head.css-fonts/>
 
-    <script src="https://cdn.usefathom.com/script.js" data-site="DIUZIVZB" defer></script>
+    @if(config('services.fathom.site_id'))
+    <script src="https://cdn.usefathom.com/script.js" data-site="{{ config('services.fathom.site_id') }}" defer></script>
+    @endif
 </head>
 <body class="bg-slate-950">
     <main>

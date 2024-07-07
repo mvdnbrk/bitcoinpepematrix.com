@@ -35,6 +35,10 @@ return [
         ],
     ],
 
+    'fathom' => [
+        'site_id' => env('FATHOM_SITE_ID'),
+    ],
+
     'coinmarketcap' => [
         'api_key' => env('COIN_MARKET_CAP_API_KEY'),
     ],
