@@ -35,4 +35,12 @@ return [
         ],
     ],
 
+    'coinmarketcap' => [
+        'api_key' => env('COIN_MARKET_CAP_API_KEY'),
+    ],
+
+    'magiceden' => [
+        'api_key' => env('MAGIC_EDEN_API_KEY'),
+    ],
+
 ];

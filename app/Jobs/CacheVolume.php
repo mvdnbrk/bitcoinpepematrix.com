@@ -23,7 +23,9 @@ class CacheVolume implements ShouldQueue
 
     public function handle(): void
     {
-        $response = Http::withToken(config('magiceden.api_key'))
+        $response = Http::withToken(
+            config('services.magiceden.api_key')
+        )
             ->acceptJson()
             ->get($this->apiUrl);
 

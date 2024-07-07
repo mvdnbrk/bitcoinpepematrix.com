@@ -22,7 +22,7 @@ class CacheBitcoinPrice implements ShouldQueue
     public function handle(): void
     {
         $response = Http::withHeaders([
-            'X-CMC_PRO_API_KEY' => config('coinmarketcap.api_key'),
+            'X-CMC_PRO_API_KEY' => config('services.coinmarketcap.api_key'),
         ])
             ->acceptJson()
             ->get($this->apiUrl);
