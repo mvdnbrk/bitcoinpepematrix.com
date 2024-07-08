@@ -10,6 +10,7 @@
         "axios": "^1.7.2",
         "element-ready": "^7.0.0",
         "laravel-vite-plugin": "^1.0.4",
+        "lightweight-charts": "^4.1.6",
         "postcss": "^8.4.39",
         "tailwindcss": "^3.4.4",
         "vite": "^5.3.3"
