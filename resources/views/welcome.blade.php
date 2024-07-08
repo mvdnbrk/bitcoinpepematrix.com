@@ -36,6 +36,8 @@
         </div>
     </div>
 
+    <x-charts/>
+
     <x-layout.section>
         <x-statistics/>
     </x-layout.section>
