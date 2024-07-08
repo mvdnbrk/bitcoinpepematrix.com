@@ -13,20 +13,20 @@
                 <x-icon-magiceden class="h-6"/>
             </a>
             <a
-                href="{{ config('marketplaces.unisat') }}"
-                class="col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1 hover:text-slate-300"
-                target="_blank"
-                rel="noopener"
-            >
-                <x-icon-unisat class="h-6"/>
-            </a>
-            <a
                 href="{{ config('marketplaces.okx') }}"
                 class="col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1 hover:text-slate-300"
                 target="_blank"
                 rel="noopener"
             >
                 <x-icon-okx class="h-6"/>
+            </a>
+            <a
+                href="{{ config('marketplaces.unisat') }}"
+                class="col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1 hover:text-slate-300"
+                target="_blank"
+                rel="noopener"
+            >
+                <x-icon-unisat class="h-6"/>
             </a>
             <a
                 href="{{ config('marketplaces.ordinalswallet') }}"
