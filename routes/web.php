@@ -11,6 +11,6 @@ Route::get('/memes', MemeController::class)->name('memes');
 
 Route::get('/api/chart', function () {
     return new RunePricesCollection(
-        Runeprice::take(1000)->latest()->get()
+        Runeprice::take(1000)->oldest()->get()
     );
 });
