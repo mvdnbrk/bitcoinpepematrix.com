@@ -14,6 +14,16 @@ const chart = createChart(
             vertLines: { color: '#0f172a' },
             horzLines: { color: '#0f172a' },
         },
+        handleScroll: {
+            mouseWheel: false,
+            pressedMouseMove: false,
+            horzTouchDrag: false,
+            vertTouchDrag: false,
+        },
+        handleScale: {
+            mouseWheel: false,
+            pinch: false,
+        },
     }
 );
 
