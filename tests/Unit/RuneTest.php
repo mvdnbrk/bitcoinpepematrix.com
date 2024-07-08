@@ -131,4 +131,42 @@ class RuneTest extends TestCase
 
         $this->assertEquals('tx12abc34', $rune->etching_tx);
     }
+
+    public function test_rune_has_the_url_to_the_magic_eden_website(): void
+    {
+        $rune = new Rune($this->validParams([
+            'ticker' => 'TEST•TICKER',
+        ]));
+
+        $this->assertEquals('https://magiceden.io/runes/TEST%E2%80%A2TICKER', $rune->magic_eden_url);
+    }
+
+    public function test_rune_has_the_url_to_the_okx_website(): void
+    {
+        $rune = new Rune($this->validParams([
+            'ticker' => 'TEST•TICKER',
+            'etching_block' => 123,
+            'etching_transaction' => 987,
+        ]));
+
+        $this->assertEquals('https://www.okx.com/web3/marketplace/runes/token/TEST%E2%80%A2TICKER/123:987', $rune->okx_url);
+    }
+
+    public function test_rune_has_the_url_to_the_ordinals_wallet_website(): void
+    {
+        $rune = new Rune($this->validParams([
+            'ticker' => 'TEST•TICKER',
+        ]));
+
+        $this->assertEquals('https://ordinalswallet.com/collection/rune-TEST%E2%80%A2TICKER', $rune->ordinals_wallet_url);
+    }
+
+    public function test_rune_has_the_url_to_the_unisat_website(): void
+    {
+        $rune = new Rune($this->validParams([
+            'ticker' => 'TEST•TICKER',
+        ]));
+
+        $this->assertEquals('https://unisat.io/runes/market?tick=TEST%E2%80%A2TICKER', $rune->unisat_url);
+    }
 }

@@ -30,6 +30,14 @@ class Rune
 
     public string $etching_tx = '';
 
+    public string $magic_eden_url = '';
+
+    public string $okx_url = '';
+
+    public string $unisat_url = '';
+
+    public string $ordinals_wallet_url = '';
+
     public function __construct(array $attributes = [])
     {
         foreach ($attributes as $key => $value) {
@@ -39,6 +47,23 @@ class Rune
         }
 
         $this->id = $this->etching_block.':'.$this->etching_transaction;
+
         $this->tickerWithoutSpacers = Str::of($this->ticker)->remove('•');
+
+        $this->magic_eden_url = Str::of('https://magiceden.io/runes/')->append(
+            urlencode($this->ticker)
+        );
+
+        $this->okx_url = Str::of('https://www.okx.com/web3/marketplace/runes/token/')->append(
+            urlencode($this->ticker)
+        )->append('/')->append($this->id);
+
+        $this->unisat_url = Str::of('https://unisat.io/runes/market?tick=')->append(
+            urlencode($this->ticker)
+        );
+
+        $this->ordinals_wallet_url = Str::of('https://ordinalswallet.com/collection/rune-')->append(
+            urlencode($this->ticker)
+        );
     }
 }
