@@ -6,11 +6,13 @@ use App\Jobs\CacheVolume;
 use App\Rune;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
+use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
 
 class CacheVolumeTest extends TestCase
 {
-    public function test_it_caches_the_transaction_count(): void
+    #[Test]
+    public function it_caches_the_transaction_count(): void
     {
         Http::fake([
             'api-mainnet.magiceden.dev/*' => Http::response([

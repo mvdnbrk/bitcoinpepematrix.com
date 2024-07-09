@@ -6,11 +6,13 @@ use App\Jobs\CacheMarketCap;
 use App\Rune;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
+use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
 
 class CacheMarketCapTest extends TestCase
 {
-    public function test_it_caches_the_marketcap(): void
+    #[Test]
+    public function it_caches_the_marketcap(): void
     {
         Http::fake([
             'api-mainnet.magiceden.dev/*' => Http::response(['marketCap' => 12.345], 200),

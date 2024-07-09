@@ -6,11 +6,13 @@ use App\Jobs\CacheFloorPrice;
 use App\Rune;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
+use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
 
 class CacheFloorPriceTest extends TestCase
 {
-    public function test_it_caches_the_floor_price(): void
+    #[Test]
+    public function it_caches_the_floor_price(): void
     {
         Http::fake([
             'api-mainnet.magiceden.dev/*' => Http::response([

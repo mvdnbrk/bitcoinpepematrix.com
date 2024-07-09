@@ -6,11 +6,13 @@ use App\Jobs\CacheHolderCount;
 use App\Rune;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
+use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
 
 class CacheHolderCountTest extends TestCase
 {
-    public function test_it_caches_the_holder_count(): void
+    #[Test]
+    public function it_caches_the_holder_count(): void
     {
         Http::fake([
             'api-mainnet.magiceden.dev/*' => Http::response(['holderCount' => 123], 200),
