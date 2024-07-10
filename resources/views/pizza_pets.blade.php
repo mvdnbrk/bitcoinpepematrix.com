@@ -9,8 +9,20 @@
             </div>
             <div class="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
                 <div class="flex space-x-4 rounded-2xl bg-slate-900 p-2">
-                    <img src="{{ asset('https://pbs.twimg.com/tweet_video_thumb/GRlvQgbWEAATtMz.jpg') }}" alt="This is EggCelent!x" width="240" height="240" class="w-[16rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10">
-                    <img src="{{ asset('images/bitcoin-pepe-matrix.gif') }}" alt="{{ $rune->ticker }}" width="240" height="240" class="w-[16rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10">
+                    <img
+                        src="{{ asset('https://pbs.twimg.com/tweet_video_thumb/GRlvQgbWEAATtMz.jpg') }}"
+                        alt="This is EggCelent!"
+                        width="240"
+                        height="240"
+                        class="w-[16rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"
+                    >
+                    <img
+                        src="{{ asset('images/bitcoin-pepe-matrix.gif') }}"
+                        alt="{{ $rune->ticker }}"
+                        width="240"
+                        height="240"
+                        class="w-[16rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"
+                    >
                 </div>
             </div>
         </div>
