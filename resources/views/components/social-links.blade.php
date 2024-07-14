@@ -1,5 +1,5 @@
 <a
-    href="{{ config('socials.twitter') }}"
+    href="{{ $socials->twitter_url }}"
     class="pl-6 hover:text-slate-200"
     target="_blank"
     rel="noopener"
@@ -8,7 +8,7 @@
     <x-icon-twitter-x class="w-6 h-6" />
 </a>
 <a
-    href="{{ config('socials.telegram') }}"
+    href="{{ $socials->telegram_url }}"
     class="pl-6 hover:text-slate-200"
     target="_blank"
     rel="noopener"

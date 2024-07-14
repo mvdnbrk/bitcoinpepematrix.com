@@ -2,10 +2,10 @@
 
 return [
 
-    'twitter' => 'https://x.com/BTCPepeMatrix',
+    'twitter_handle' => env('TWITTER_HANDLE'),
 
-    'telegram' => 'https://t.me/bitcoinpepematrix',
+    'telegram_handle' => env('TELEGRAM_HANDLE'),
 
-    'discord' => 'https://discord.gg/XnxKTF5vzC',
+    'discord_handle' => env('DISCORD_HANDLE'),
 
 ];

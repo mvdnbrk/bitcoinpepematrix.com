@@ -65,7 +65,7 @@
             Be the first to know every detail about our collab, join our
             <a
                 class="underline underline-offset-2 hover:underline-offset-4"
-                href="{{ config('socials.telegram') }}"
+                href="{{ $socials->telegram_url }}"
                 target="_blank"
             >telegram</a>!
         </p>

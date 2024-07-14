@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Rune;
+use App\Socials;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
@@ -19,6 +20,10 @@ class AppServiceProvider extends ServiceProvider
         $rune = new Rune(config('rune'));
 
         View::share('rune', $rune);
+
+        $socials = new Socials();
+
+        View::share('socials', $socials);
 
         JsonResource::withoutWrapping();
     }
