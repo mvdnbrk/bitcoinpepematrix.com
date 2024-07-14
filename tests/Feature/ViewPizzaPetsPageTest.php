@@ -14,4 +14,14 @@ class ViewPizzaPetsPageTest extends TestCase
             ->assertOk()
             ->assertViewIs('pizza_pets');
     }
+
+    #[Test]
+    public function the_correct_title_is_seen_on_the_pizza_pets_page()
+    {
+        $this->get('/pizza/pets')
+            ->assertSee(
+                '<title>BITCOIN•PEPE•MATRIX x Pizza Pets</title>',
+                escape: false
+            );
+    }
 }

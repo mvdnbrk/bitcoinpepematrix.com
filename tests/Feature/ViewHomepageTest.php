@@ -15,6 +15,16 @@ class ViewHomepageTest extends TestCase
     }
 
     #[Test]
+    public function the_correct_title_is_seen_on_the_homepage()
+    {
+        $this->get('/')
+            ->assertSee(
+                '<title>BITCOIN•PEPE•MATRIX',
+                escape: false
+            );
+    }
+
+    #[Test]
     public function the_fathom_site_id_is_seen()
     {
         Config::set('services.fathom.site_id', 'TEST123');
