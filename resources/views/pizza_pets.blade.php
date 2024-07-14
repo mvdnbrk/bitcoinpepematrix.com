@@ -61,12 +61,22 @@
         </div>
     </div>
     <div class="mx-auto max-w-7xl px-6 pb-4 pt-4 lg:px-8">
-        <a
-            href="{{ secure_url('/') }}"
-            type="button"
-            class="rounded bg-white/10 px-2 py-1 text-sm font-semibold text-gray-400 shadow-sm hover:bg-white/20"
-        >
-            return to the homepage
-        </a>
+        <p class="text-white mt-6 p-4">
+            Be the first to know every detail about our collab, join our
+            <a
+                class="underline underline-offset-2 hover:underline-offset-4"
+                href="{{ config('socials.telegram') }}"
+                target="_blank"
+            >telegram</a>!
+        </p>
+        <div class="mt-4 p-4">
+            <a
+                href="{{ secure_url('/') }}"
+                type="button"
+                class="rounded bg-white/10 px-2 py-1 text-sm font-semibold text-gray-400 shadow-sm hover:bg-white/20"
+            >
+                return to the homepage
+            </a>
+        </div>
     </div>
 </x-layout.main>
