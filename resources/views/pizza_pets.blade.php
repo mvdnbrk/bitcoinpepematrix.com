@@ -57,4 +57,13 @@
             </div>
         </div>
     </div>
+    <div class="mx-auto max-w-7xl px-6 pb-4 pt-4 lg:px-8">
+        <a
+            href="{{ secure_url('/') }}"
+            type="button"
+            class="rounded bg-white/10 px-2 py-1 text-sm font-semibold text-gray-400 shadow-sm hover:bg-white/20"
+        >
+            return to the homepage
+        </a>
+    </div>
 </x-layout.main>
