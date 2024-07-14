@@ -1,5 +1,5 @@
 <a
-    href="https://github.com/mvdnbrk/bitcoinpepematrix.com"
+    href="https://github.com/bitcoinpepematrix/bitcoinpepematrix.com"
     class="hover:text-slate-200"
     target="_blank"
     rel="noopener"
