@@ -31,7 +31,7 @@
                         class="w-60 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"
                     >
                     <img
-                        src="{{ asset('https://pbs.twimg.com/tweet_video_thumb/GRlvQgbWEAATtMz.jpg') }}"
+                        src="{{ asset('images/pizza_pets_egg.jpg') }}"
                         alt="This is EggCelent!"
                         width="240"
                         height="240"
