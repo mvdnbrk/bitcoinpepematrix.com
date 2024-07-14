@@ -11,7 +11,16 @@
                         We are thrilled to announce a collaboration with
                     </p>
                     <p class="mt-2 mb-2">
-                        Pizza Ninjas and Mega Punks
+                        <a href="https://x.com/Pizza_Ninjas" target="_blank" class="underline underline-offset-2 hover:underline-offset-4">
+                            Pizza Ninjas
+                        </a> and
+                        <a
+                            href="https://x.com/MegaPunks_BTC"
+                            class="underline underline-offset-2 hover:underline-offset-4"
+                            target="_blank"
+                        >
+                            Mega Punks
+                        </a>
                     </p>
                     <p>
                         on their upcoming <a href="https://pets.pizza" target="_blank" class="underline underline-offset-2 hover:underline-offset-4">Pizza Pets</a> airdrop.
