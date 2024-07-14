@@ -23,7 +23,14 @@
                         </a>
                     </p>
                     <p>
-                        on their upcoming <a href="https://pets.pizza" target="_blank" class="underline underline-offset-2 hover:underline-offset-4">Pizza Pets</a> airdrop.
+                        on their upcoming
+                        <a
+                            href="https://pets.pizza"
+                            class="underline underline-offset-2 hover:underline-offset-4"
+                            target="_blank"
+                        >
+                            Pizza Pets
+                        </a> airdrop.
                     </p>
                     <p class="mt-6">
                         More details coming soon...
