@@ -25,6 +25,13 @@ class ViewHomepageTest extends TestCase
     }
 
     #[Test]
+    public function the_meta_tag_with_the_correct_description_is_seen()
+    {
+        $this->get('/')
+            ->assertSee('meta name="description" content="Pepe on Bitcoin Runes | The ticker is BITCOIN•PEPE•MATRIX  | Community Run"', escape: false);
+    }
+
+    #[Test]
     public function the_fathom_site_id_is_seen()
     {
         Config::set('services.fathom.site_id', 'TEST123');

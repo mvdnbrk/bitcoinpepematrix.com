@@ -7,7 +7,7 @@
 
     <title>{{ $title ?? $rune->ticker }}</title>
 
-    <meta name="description" content="Pepe on Bitcoin Runes | The ticker is BITCOIN•PEPE•MATRIX  | Community Run">
+    <meta name="description" content="{{ $description ?? 'Pepe on Bitcoin Runes | The ticker is BITCOIN•PEPE•MATRIX  | Community Run' }}">
 
     <x-head.meta-opengraph/>
     <x-head.meta-twitter/>

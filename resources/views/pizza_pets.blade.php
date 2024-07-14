@@ -1,4 +1,7 @@
-<x-layout.main title="{{ $rune->ticker }} x Pizza Pets">
+<x-layout.main
+    title="{{ $rune->ticker }} x Pizza Pets"
+    description="We are thrilled to announce a collaboration with Pizza Ninjas and Mega Punks on their upcoming Pizza Pets airdrop."
+>
     <div class="relative isolate overflow-hidden">
         <canvas id="matrix" class="absolute -z-10 h-full w-full" aria-hidden="true"></canvas>
         <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-40 lg:flex lg:px-8 lg:pt-40">

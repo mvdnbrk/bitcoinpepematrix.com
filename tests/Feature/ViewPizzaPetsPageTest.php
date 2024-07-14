@@ -24,4 +24,14 @@ class ViewPizzaPetsPageTest extends TestCase
                 escape: false
             );
     }
+
+    #[Test]
+    public function the_meta_tag_with_the_correct_description_is_seen()
+    {
+        $this->get('/pizza/pets')
+            ->assertSee(
+                'meta name="description" content="We are thrilled to announce a collaboration with Pizza Ninjas and Mega Punks on their upcoming Pizza Pets airdrop."',
+                escape: false
+            );
+    }
 }
