@@ -17,13 +17,11 @@ class AppServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        $rune = new Rune(config('rune'));
+        View::share('rune', new Rune(
+            config('rune')
+        ));
 
-        View::share('rune', $rune);
-
-        $socials = new Socials();
-
-        View::share('socials', $socials);
+        View::share('socials', new Socials());
 
         JsonResource::withoutWrapping();
     }
