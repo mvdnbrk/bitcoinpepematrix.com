@@ -62,12 +62,12 @@
     </div>
     <div class="mx-auto max-w-7xl px-6 pb-4 pt-4 lg:px-8">
         <p class="text-white mt-6 p-4">
-            Be the first to know every detail about our collab, join our
+            Be the first to know every detail about our collaboration. Join our
             <a
                 class="underline underline-offset-2 hover:underline-offset-4"
                 href="{{ $socials->telegram_url }}"
                 target="_blank"
-            >telegram</a>!
+            >Telegram</a>!
         </p>
         <div class="mt-4 p-4">
             <a
