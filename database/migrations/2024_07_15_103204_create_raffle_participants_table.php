@@ -10,6 +10,9 @@ return new class extends Migration
     {
         Schema::create('raffle_participants', function (Blueprint $table) {
             $table->id();
+            $table->string('twitter_username');
+            $table->string('wallet_address');
+            $table->integer('assigned_tickets_count')->default(0)->unsigned();
             $table->timestamps();
         });
     }
