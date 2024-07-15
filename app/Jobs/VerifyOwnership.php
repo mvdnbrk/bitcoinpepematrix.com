@@ -20,6 +20,7 @@ class VerifyRuneOwnership implements ShouldQueue
     public function __construct(
         public Rune $rune,
         public string $address,
+        public int $minimum_amount = 1,
     ) {
         $this->apiUrl = Str::of('https://api-mainnet.magiceden.dev/v2/ord/btc/runes/wallet/balances/')
             ->append($address)
