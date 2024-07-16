@@ -48,6 +48,10 @@
     </x-layout.section>
 
     <x-layout.section>
+        <x-donation/>
+    </x-layout.section>
+
+    <x-layout.section>
         <x-rune-specs/>
     </x-layout.section>
 </x-layout.main>
