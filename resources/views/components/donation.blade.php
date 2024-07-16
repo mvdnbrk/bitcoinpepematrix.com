@@ -1,6 +1,6 @@
 <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <label for="donate" class="block text-lg md:text-xl text-base font-semibold leading-8 text-slate-400">
-        donation wallet address
+        consider making a donation to our community wallet
     </label>
     <div class="w-96 relative mt-2 rounded-md shadow-sm">
         <input
