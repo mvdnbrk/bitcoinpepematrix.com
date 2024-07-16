@@ -44,11 +44,11 @@
     </x-layout.section>
 
     <x-layout.section>
-        <x-donation/>
+        <x-marketplaces/>
     </x-layout.section>
 
     <x-layout.section>
-        <x-marketplaces/>
+        <x-donation/>
     </x-layout.section>
 
     <x-layout.section>
