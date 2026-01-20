@@ -2,22 +2,26 @@
     "name": "bitcoinpepematrix/bitcoinpepematrix.com",
     "type": "project",
     "description": "The website for bitcoinpepematrix.com",
-    "keywords": ["bitcoin", "pepe", "matrix", "runes"],
+    "keywords": [
+        "bitcoin",
+        "pepe",
+        "matrix",
+        "runes"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.3",
         "blade-ui-kit/blade-icons": "^1.8",
-        "laravel/framework": "^12.21",
-        "laravel/horizon": "^5.33",
-        "laravel/tinker": "^2.10"
+        "laravel/framework": "^12.47",
+        "laravel/horizon": "^5.43",
+        "laravel/tinker": "^2.11"
     },
     "require-dev": {
         "fakerphp/faker": "^1.24",
-        "laravel/pint": "^1.24",
+        "laravel/pint": "^1.27",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.8",
-        "phpunit/phpunit": "^11.5",
-        "spatie/laravel-ignition": "^2.9"
+        "phpunit/phpunit": "^11.5"
     },
     "autoload": {
         "psr-4": {
